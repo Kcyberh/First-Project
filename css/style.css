@@ -1,0 +1,132 @@
+/*your CSS code here*/
+.heading {
+	font-size: 35px;
+	background-color: white;
+    border-radius: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    transition: 1s;
+    box-shadow: 0px 0px 10px #2F5A78;
+    
+}
+body{
+	background-color:#e0e0e0;
+    font-size: 20px;
+}
+.skills ul li .skill_prog{
+  height: 50%;
+  width: 5px;
+  position: relative;
+	
+}
+.skills ul li .skill_prog span{
+	position: absolute;
+	height: 100%;
+	background-color:#2F5A78;
+	padding-right: 50px;
+}
+.skill_name {
+    color: #e0e0e0;
+	width: 5px;
+    font-weight: bolder;
+}
+span{
+    color: #e0e0e0;
+    font-weight: bold;
+}
+.skill_per{
+	margin-right: 15px;
+}
+img{
+  float: right;
+  border-radius: 50%;
+  animation: image 5s linear 1s alternate;
+}
+img:hover{
+   cursor: pointer;
+}
+@keyframes image {
+    0% {transform: rotate(-90deg);}
+    50%{opacity:0; transform: translate(10%,10%); }
+}
+.icon{
+	display: inline-block;
+    text-decoration: none;
+	color: #252525;
+}
+.subheading{
+          font-size: large;
+          font-weight: bold;
+          text-transform: uppercase;
+         
+}
+.social{
+    padding: 1px;
+    text-align: center;
+    background-color:#e0e0e0;
+    
+}
+a:active{
+    color:#2F5A78;
+}
+.icon{
+    padding: 10px;
+    
+}
+.contactinfo{
+    color: #e0e0e0;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border:1px solid #2F5A78;
+    box-sizing: content-box;
+    width: 40%;
+    border-radius: 15px;
+    background-color: #2F5A78;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 10px #2F5A78;
+    padding: 20px;
+    animation: contact 5s linear 2 alternate;
+}
+.contactinfo:hover{
+    background-color: #e0e0e0;
+    color: #2F5A78;
+    border: none;
+   
+}
+@keyframes contact {
+    from{background-color: #2F5A78;color: #e0e0e0;border: none;}
+    to{color: #2F5A78; background-color: #e0e0e0; border: none;}
+}
+.intro{
+   
+    padding: 5px;
+    background-color: #2F5A78;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.prof,.summary {
+    color: #e0e0e0;
+}
+strong{
+    color: #252525;
+}
+.skills{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.skilldes{
+    background-color: #2F5A78;
+     border: 1px solid #e0e0e0;
+     padding: 10px;
+     border-radius: 15px;
+     color: #e0e0e0;
+     
+}
+.pro{
+    background-color: #2F5A78;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
